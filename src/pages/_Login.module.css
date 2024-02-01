@@ -1,4 +1,4 @@
-.login {
+z.login {
   height: 100vh;
   display: grid;
   place-items: center;
@@ -16,7 +16,7 @@
 .login form h1 {
   font-family: "Rubik", sans-serif;
   font-size: 2rem;
-  color: #6354af;
+  color: #000;
   text-align: center;
 }
 
@@ -30,7 +30,7 @@
 
 .login form h2 > a {
   font-weight: 500;
-  color: #6354af;
+  color: #000;
 }
 
 .login form input {
@@ -45,7 +45,7 @@
 
 .login form input:focus {
   outline: none;
-  border-color: #6354af;
+  border-color: #000;
 }
 
 .login form button {
@@ -53,7 +53,7 @@
   cursor: pointer;
   border: none;
   border-radius: 0.25rem;
-  background: #6354af;
+  background: #000;
   color: #fff;
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
@@ -61,5 +61,5 @@
 }
 
 .login form button:hover {
-  background: #52489c;
+  background: #808080;
 }
