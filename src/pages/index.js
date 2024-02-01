@@ -18,7 +18,7 @@ function Login(){
 
     return (
         <div className={styles.login}>
-            <head>
+            <Head>
                 <meta charset="UTF-8">
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +27,7 @@ function Login(){
 	            <meta name="description" content="Anubhav Gain is a dedicated and passionate IT Specialist with expertise in system support, lab tech, and cybersecurity. Currently working at Parul University, Anubhav excels in providing exceptional technical troubleshooting and support to ensure smooth operations. Specializing in Cyber/Computer Forensics and Counterterrorism, Anubhav holds multiple certifications and possesses expertise in Transport Layer Security (TLS), Traceroute, OSI Model, DNS, and CentOS. With a commitment to continuous learning and growth, Anubhav is highly valued for their exceptional diplomacy, communication skills, and ability to work effectively within teams. Anubhav is a valuable asset with a strong dedication to excellence in all aspects of their work.">
 	            <meta name="keywords" content="Anubhav Gain, IT Specialist, System Support, Cybersecurity, Cyber Forensics, Counterterrorism, Technical Troubleshooting, Transport Layer Security, Traceroute, OSI Model, DNS, CentOS, Parul University">
 	            <link rel="shortcut icon" type="image/x-icon" href="/public/favicon.ico">
-            </head>
+            </Head>
 
             <form onSubmit={handleSubmit}>
                 <h1>Github Portfolio Generator</h1>
