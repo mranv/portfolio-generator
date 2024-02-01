@@ -18,11 +18,9 @@ function Login(){
 
     return (
         <div className={styles.login}>
-            <head>
-                
-	            <title>Open Source Portfolio Generator</title>
-	            <link rel="shortcut icon" type="image/x-icon" href="/public/favicon.ico">
-            </head>
+            <Head>
+                <title>Github Portfolio Generator Open Source</title>
+            </Head>
 
             <form onSubmit={handleSubmit}>
                 <h1>Github Portfolio Generator</h1>
