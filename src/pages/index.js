@@ -19,7 +19,7 @@ function Login(){
     return (
         <div className={styles.login}>
             <Head>
-                <title>Portfolio Generator by Guilherme Balog</title>
+                <title>Open Source Portfolio Generator</title>
             </Head>
 
             <form onSubmit={handleSubmit}>
